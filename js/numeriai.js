@@ -139,6 +139,11 @@ let numbersArr = [2, 12, 33.3, -7, 28, 49, -17, 19, 42, -14, -10, 20];
 
 //?Sukurti funkciją, kuri ima masyvą ir atspausdina kiekvieną jo reikšmę atskirai: [0] => 2. (nieko negrąžina)
 
+for (let i = 0; i < numbersArr.length; i++) {
+  let skaicius = numbersArr[i];
+  console.log("skaicius ===", skaicius);
+}
+
 //? Sukurti funkciją, kuri ima masyvą ir grąžina visų jo elementų sumą
 
 // let total = 0;
@@ -161,4 +166,4 @@ let numbersArr = [2, 12, 33.3, -7, 28, 49, -17, 19, 42, -14, -10, 20];
 
 //? Sukurti funkciją, kuri ima masyvą ir grąžina mažiausią skaičių masyve.
 
-//? Sukurti funkciją, kuri ima masyvą ir išrikiuja jo elementus nuo mažiausio iki didžiausio ir grąžina tą masyvą.
+// ? Sukurti funkciją, kuri ima masyvą ir išrikiuja jo elementus nuo mažiausio iki didžiausio ir grąžina tą masyvą
